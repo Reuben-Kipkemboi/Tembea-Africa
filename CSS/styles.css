@@ -95,3 +95,33 @@ nav > ul > li > a:hover {
      font-weight: bolder;
      margin-left: 20% ;
  }
+
+ /* South Africa */
+#capetown>h3{
+   font-size: 4vh;
+   font-weight: bolder;
+   color: black; 
+   margin-left: 10%;
+  text-align: center;
+}
+.south>p>ol{
+   font-size: 3vh;
+   font-weight: bold;
+   color: rgb(82, 123, 175);
+}
+.south>img{
+   width: 40%;
+   height: 50vh;
+   border-radius: 10px;
+  margin-right: 1%;
+   margin-left: 7%;
+}
+.south>.top{
+   width: 50%;
+   float: right;
+   margin-right: 1%; 
+}
+#capetown .btn{
+    font-weight: bolder;
+    margin-left: 5% ;
+}
