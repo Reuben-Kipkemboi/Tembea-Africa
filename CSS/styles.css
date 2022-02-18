@@ -59,3 +59,39 @@ nav > ul > li > a:hover {
   border-bottom: 4px solid purple;
   text-decoration: none;
 }
+
+ /* Kenya */
+ #about{
+    margin-top: 8%;
+ }
+ #about>img{
+    float: left;
+    width: 50%;
+    height: 71vh;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+ }
+ #about h2{
+     text-align: center;
+     font-size: 4vh;
+     font-weight: bolder;
+     text-transform: uppercase;
+ }
+ #about>p{
+    font-size: 2.5vh;
+    color: black;
+    line-height: 1.6;
+    width: 95vw;  
+ }
+ hr{
+    border: 1px solid rgb(17, 31, 60);
+    margin-bottom: 30px;
+    width: 92vw;
+    margin-left: 5%;
+ }
+ #about .btn{
+     font-weight: bolder;
+     margin-left: 20% ;
+ }
