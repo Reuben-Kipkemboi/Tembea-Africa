@@ -50,8 +50,12 @@ ul > li > a {
   color: white;
   font-size: 3vh;
 }
+.logo>a:hover{
+    text-decoration: none;
+}
 nav > ul > li > a:hover {
   box-shadow: 2px 5px 10px darkmagenta;
   background: white;
   border-bottom: 4px solid purple;
+  text-decoration: none;
 }
