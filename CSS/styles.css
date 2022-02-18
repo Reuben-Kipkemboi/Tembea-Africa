@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#overlay {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: brown;
+}
+nav {
+  margin: 0 auto;
+  margin-right: 0%;
+  transition: 0.2s;
+}
+.logo{
+    float: left;
+    margin-top: 1.5%;
+    text-align: center;
+}
+span{
+    font-size: 4vh;
+    color: white;
+    text-shadow: darkmagenta 2px 2px 2px;
+    text-decoration: none;
+}
+em{
+    color: rgb(17, 31, 60);
+}
+nav > ul {
+  text-align: right;
+}
+nav > ul > li {
+  display: inline-block;
+}
+ul > li > a {
+  padding: 20px;
+  margin-right: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 3vh;
+}
+nav > ul > li > a:hover {
+  box-shadow: 2px 5px 10px darkmagenta;
+  background: white;
+  border-bottom: 4px solid purple;
+}
